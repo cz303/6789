@@ -1,0 +1,27 @@
+{
+  "name": "bot_group",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "nodemon bot.js"
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": "5.6.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "composer": "^4.1.0",
+    "dialogflow": "^0.10.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.10",
+    "node-telegram-bot-api": "^0.30.0",
+    "nodemon": "^1.19.1",
+    "save": "^2.4.0",
+    "stage": "^1.0.0",
+    "telegraf": "^3.32.0",
+    "wizard": "^2.0.0"
+  }
+}
